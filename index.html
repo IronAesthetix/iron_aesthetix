@@ -3,54 +3,93 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Jo • Links</title>
-  <meta name="description" content="All my links in one place" />
-  <!-- Open Graph / social preview -->
-  <meta property="og:title" content="Jo • Links" />
-  <meta property="og:description" content="All my links in one place" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Jo+Links" />
+  <title>Jo | Iron Aesthetix</title>
+  <meta name="description" content="Jo | Iron Aesthetix • Forged Through Fire" />
   <style>
-    :root { --bg:#0b0c10; --card:#14161a; --text:#e8edf2; --muted:#9aa4b2; --accent:#7dd3fc; }
-    *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#0b0c10,#0e1116);}
-    .wrap{max-width:640px;margin:0 auto;padding:48px 20px;display:flex;flex-direction:column;gap:20px;align-items:center}
-    .card{width:100%;background:var(--card);border:1px solid #1e2126;border-radius:18px;padding:22px}
-    .avatar{width:86px;height:86px;border-radius:50%;border:2px solid #1f2329;object-fit:cover}
-    h1{color:var(--text);font-size:28px;margin:14px 0 6px}
-    p{color:var(--muted);margin:0 0 10px}
-    .links{display:flex;flex-direction:column;gap:14px;margin-top:8px}
-    .link{display:flex;align-items:center;gap:12px;padding:14px 16px;border-radius:14px;
-      background:#111319;border:1px solid #1c2026;text-decoration:none;color:var(--text);font-weight:600;transition:transform .05s ease, border-color .2s ease}
-    .link:hover{transform:translateY(-1px);border-color:#2a3139}
-    .link small{color:var(--muted);font-weight:500}
-    .badge{margin-left:auto;font-size:12px;color:#071018;background:var(--accent);border-radius:999px;padding:.25rem .55rem}
-    footer{color:#687385;font-size:12px;text-align:center}
+    :root {
+      --bg: #0b0d12;
+      --card: #161a21;
+      --text: #e8edf2;
+      --muted: #9aa4b2;
+      --steel: #a9b8d4;
+      --gold: #c7a667;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: Inter, Roboto, sans-serif;
+      background: radial-gradient(circle at top, #11141b 0%, #0b0d12 70%);
+      display: flex; justify-content: center; padding: 40px 16px;
+      color: var(--text);
+    }
+    .wrap {
+      width: 100%; max-width: 450px; text-align: center;
+    }
+    .avatar {
+      width: 130px; height: 130px;
+      border-radius: 50%;
+      border: 2px solid rgba(255,255,255,0.15);
+      object-fit: cover;
+      box-shadow:
+        0 0 20px rgba(169,184,212,0.28),
+        0 0 10px rgba(199,166,103,0.2);
+      margin-bottom: 16px;
+    }
+    h1 { font-size: 28px; margin-bottom: 6px; }
+    p { margin: 6px 0; font-size: 15px; color: var(--muted); }
+
+    .links { margin-top: 22px; display: flex; flex-direction: column; gap: 14px; }
+
+    .link {
+      text-decoration: none; color: var(--text); font-weight: 600;
+      padding: 14px 18px; border-radius: 14px;
+      background: linear-gradient(120deg, #11141a, #1a1f27);
+      border: 1px solid rgba(199,166,103,0.35);
+      display: flex; justify-content: space-between; align-items: center;
+      box-shadow:
+        inset 0 0 12px rgba(200,166,103,0.12),
+        0 0 14px rgba(169,184,212,0.18);
+      transition: all .18s ease;
+    }
+    .link:hover {
+      transform: translateY(-2px) scale(1.01);
+      border-color: var(--gold);
+      box-shadow:
+        inset 0 0 14px rgba(200,166,103,0.25),
+        0 0 22px rgba(169,184,212,0.35);
+    }
+    footer {
+      margin-top: 32px;
+      color: var(--muted);
+      font-size: 12px;
+      opacity: .7;
+    }
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <img class="avatar" src="https://avatars.githubusercontent.com/u/9919?s=200" alt="Avatar" />
-    <div class="card" style="text-align:center">
-      <h1>Jo</h1>
-      <p>Building fitness & macro apps • Kotlin / C# • Always learning</p>
-    </div>
+  <div class="wrap">
 
-    <div class="links" aria-label="Primary links">
+    <img class="avatar"
+         src="YOUR_IMAGE_URL_HERE"
+         alt="Jo | Iron Aesthetix">
+
+    <h1>Jo | Iron Aesthetix</h1>
+    <p>💪 Forged through Fire</p>
+    <p>📸 Fitness | Mindset | Growth</p>
+
+    <div class="links">
       <a class="link" href="https://instagram.com/iron_aesthetix" target="_blank" rel="noopener">
-        📸 Instagram <small>@iron_aesthetix</small><span class="badge">Follow</span>
+        Instagram <span>📸</span>
       </a>
       <a class="link" href="https://tiktok.com/@iron_aesthetix" target="_blank" rel="noopener">
-        🎵 TikTok <small>@iron_aesthetix</small>
+        TikTok <span>🎵</span>
       </a>
-      <a class="link" href="https://snapchat.com/@joironaesthetix" target="_blank" rel="noopener">
-        👻 SnapChat <small>@iron_aesthetix</small>
+      <a class="link" href="https://snapchat.com/add/joironaesthetix" target="_blank" rel="noopener">
+        Snapchat <span>👻</span>
       </a>
     </div>
 
-    <footer>© <span id="y"></span> Jo • Made without Linktree</footer>
-  </main>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+    <footer>© <script>document.write(new Date().getFullYear())</script> Iron Aesthetix</footer>
+
+  </div>
 </body>
 </html>
-
